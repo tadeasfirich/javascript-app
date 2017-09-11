@@ -1,0 +1,117 @@
+html {
+  background: #1C053A;
+  body {
+    background: #1C053A;
+  }
+}
+//**********************
+//Log in/Sign up buttons
+//**********************
+
+.flex {
+  display: flex;
+   .btn-group {
+    margin: auto;
+    margin-top: 5px;
+  }
+}
+
+//**********************
+//Log in/Sign up Application
+//**********************
+
+.my-app {
+  margin: auto;
+  margin-top: 75px;
+  height: auto;
+  background-color: #6B4E90;
+  border: 2px solid #8F78AD;
+  border-radius: 25px;
+  .btn-group {
+    margin-top: 4px;
+  }
+  form {
+    margin-bottom: 40px;
+    .form-group {
+      margin: 20px 0 20px;
+      label{
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+//**********************
+//Media queries
+//**********************
+
+@media (max-width: 479px) {
+  .my-app {
+    width: 100%;
+  }
+}
+@media (min-width: 480px) {
+  .my-app {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .my-app {
+    width: 60%;
+  }
+}
+
+//**********************
+//To do list application
+//**********************
+
+
+
+.to-do {
+  height: 275px;
+  background-image: url("../images/coffee-2608864_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px 25px 0 0;
+  h1 {
+    text-align: center;
+    padding-top: 120px;
+    text-transform: uppercase;
+    color: darken(#fff,62.5);
+    font-weight: 900;
+  }
+  form {
+    margin-top: 75px;
+    display: flex;
+    .btn-primary {
+      margin-top: 0;
+    }
+  }
+}
+.card {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  li {
+    display: flex;
+    .checkbox {
+      margin-right: 5.75px;
+    }
+    p {
+      margin: 0;
+    }
+    div {
+      margin-left: auto;
+      button {
+        margin: 0 2.5px;
+      }
+    }
+  }
+}
+
+#lighten {
+  transition: 0.35s;
+  border: 1.5px solid rgba(3,95,154, .65);
+  margin-bottom: 0.9px;
+}
